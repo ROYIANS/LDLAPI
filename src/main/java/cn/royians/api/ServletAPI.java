@@ -60,7 +60,7 @@ public class ServletAPI {
             html.append(item.get("author"));
             html.append("</span><small>");
             html.append(item.get("pubDate"));
-            html.append("<small><br/><span>");
+            html.append("</small><br/><span>");
             html.append(item.get("description"));
             html.append("</span></p><hr/>");
         }
